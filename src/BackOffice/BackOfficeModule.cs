@@ -1,10 +1,10 @@
 ﻿using Nancy;
 
-namespace BackOffice
+namespace Backoffice
 {
-    public class BackOfficeModule : NancyModule
+    public class BackofficeModule : NancyModule
     {
-        public BackOfficeModule()
+        public BackofficeModule()
         {
             Get["/"] = _ => "Hello from the BackOffice!";
         }
