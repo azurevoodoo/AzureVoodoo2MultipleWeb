@@ -14,6 +14,7 @@ var webRole                 = (EnvironmentVariable("web_role") ?? string.Empty).
 var solutionPath            = MakeAbsolute(File("./src/MultipleWebSites.sln"));
 string outputPath           = MakeAbsolute(Directory("./output")).ToString();
 string testsOutputPath      = MakeAbsolute(Directory("./testsOutputPath")).ToString();
+
 DirectoryPath   websitePath,
                 websitePublishPath,
                 testsPath;
